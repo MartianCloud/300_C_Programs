@@ -12,10 +12,12 @@ void optimized_bubble_sort(int arr[], int size) {
                 arr[j + 1] = temp;
                 swapped = 1;  // Set the flag to indicate a swap was made
             }
-        }
+        } 
         if (swapped == 0) {
             // If no swaps were made in this pass, the array is already sorted
             break;
+
+
         }
     }
 }
